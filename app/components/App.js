@@ -19,7 +19,10 @@ class App extends Component {
           <h1 className='home-header'>Service LookUp (by keyword)</h1>
           <LookupService
             direction='column'
-            onSubmitTermSearched=          />
+            onSubmitTermSearched={() => {
+
+            }}
+          />
 
         </div>
       </div>

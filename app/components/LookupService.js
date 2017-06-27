@@ -27,7 +27,7 @@ class LookupService extends Component {
     console.log("this.state.termSearch =  " + this.state.termSearched)
     api.getTermSearched(this.state.termSearched)
       .then( function(res) {
-        console.log(res)
+        console.log(res.data.results)
       })
     // this.props.onSubmitTermSearched(this.state.termSearched)
     // this.setState( () => {

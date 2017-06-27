@@ -22,7 +22,6 @@ console.log(url)
     })
 }
 
-
 module.exports = {
   getTermSearched: getTermSearched
 };
