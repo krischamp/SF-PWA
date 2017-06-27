@@ -15,9 +15,11 @@ class App extends Component {
         <div className='navbar'>
           <h1>SF - PWA</h1>
         </div>
-        <div className='home-container' style={{ backgroundImage: "url('app/images/pattern.svg')" }}>
+        <div className='home-container'>
           <h1 className='home-header'>Service LookUp (by keyword)</h1>
-          <LookupService />
+          <LookupService
+            direction='column'
+            onSubmitTermSearched=          />
 
         </div>
       </div>
